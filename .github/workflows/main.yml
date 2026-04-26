@@ -17,7 +17,7 @@ jobs:
         run: |
           test -f index.html
           test -f styles.css
-          echo "Archivos home.html y styles.css verificados."
+          echo "Archivos index.html y styles.css verificados."
 
   cd:
     name: Preparacion de Despliegue CD
