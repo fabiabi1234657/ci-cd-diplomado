@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout del repositorio
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Verificar archivos requeridos
         run: |
@@ -25,7 +25,7 @@ jobs:
     needs: ci
     steps:
       - name: Checkout del repositorio
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Simulacion de despliegue
         run: echo "Artefactos listos para el despliegue en el entorno de Staging"
