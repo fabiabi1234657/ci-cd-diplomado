@@ -15,7 +15,7 @@ jobs:
 
       - name: Verificar archivos requeridos
         run: |
-          test -f home.html
+          test -f index.html
           test -f styles.css
           echo "Archivos home.html y styles.css verificados."
 
